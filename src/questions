@@ -1,0 +1,41 @@
+1. Filter Even Numbers
+Input: [1, 2, 3, 4, 5, 6]
+Output: [2, 4, 6]
+
+2. Convert Strings to Uppercase
+Input: ["java", "spring", "hibernate"]
+Output: ["JAVA", "SPRING", "HIBERNATE"]
+
+3. Find the First Element Greater than 10
+Input: [5, 8, 12, 3, 15]
+Output: 12
+
+4. Sum of Numbers
+Input: [1, 2, 3, 4, 5]
+Output: 15
+
+5. Count Strings Starting with "A"
+Input: ["Apple", "Banana", "Avocado", "Mango"]
+Output: 2
+
+6. Remove Duplicates from a List
+Input: [1, 2, 2, 3, 4, 4, 5]
+Output: [1, 2, 3, 4, 5]
+
+7. Find the Longest String
+Input: ["cat", "elephant", "tiger", "lion"]
+Output: "elephant"
+
+8. Sort Strings Alphabetically
+Input: ["Banana", "Apple", "Mango"]
+Output: ["Apple", "Banana", "Mango"]
+
+9. Group Words by First Letter
+Input: ["Apple", "Banana", "Avocado", "Blueberry"]
+Output:
+A -> [Apple, Avocado]  
+B -> [Banana, Blueberry]
+
+10. Find Product of All Numbers
+Input: [2, 3, 4]
+Output: 24
