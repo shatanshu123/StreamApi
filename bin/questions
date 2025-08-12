@@ -40,7 +40,7 @@ B -> [Banana, Blueberry]
 Input: [2, 3, 4]
 Output: 24
 
------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Sum of Even Numbers
 Input: [1, 2, 3, 4, 5, 6]
@@ -83,3 +83,45 @@ Expected Output:
 Input: ["apple", "banana", "apple", "orange", "banana", "apple"]
 Expected Output:
 {apple=3, banana=2, orange=1}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Find All Unique Elements
+Input: [1, 2, 2, 3, 4, 4, 5]
+Expected Output: [1, 2, 3, 4, 5]
+
+2. Sum of All Even Numbers
+Input: [5, 8, 12, 3, 7, 10]
+Expected Output: 30
+
+3. Find the Minimum Number
+Input: [7, 3, 9, 1, 4]
+Expected Output: 1
+
+4. Remove Empty Strings
+Input: ["Java", "", "Stream", "", "API"]
+Expected Output: ["Java", "Stream", "API"]
+
+5. Join Strings with a Dash (-)
+Input: ["2025", "08", "12"]
+Expected Output: "2025-08-12"
+
+6. Find All Palindrome Strings
+Input: ["madam", "level", "apple", "radar", "java"]
+Expected Output: ["madam", "level", "radar"]
+
+7. Find Square of Each Number
+Input: [2, 3, 4]
+Expected Output: [4, 9, 16]
+
+8. Find Strings Containing Letter 'a'
+Input: ["cat", "dog", "mouse", "rat"]
+Expected Output: ["cat", "rat"]
+
+9. Find Average of Numbers
+Input: [10, 20, 30, 40]
+Expected Output: 25.0
+
+10. Find the Most Frequent Element
+Input: [3, 5, 3, 2, 5, 3, 4]
+Expected Output: 3
