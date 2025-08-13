@@ -125,3 +125,45 @@ Expected Output: 25.0
 10. Find the Most Frequent Element
 Input: [3, 5, 3, 2, 5, 3, 4]
 Expected Output: 3
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Multiply Each Number by 3
+Input: [1, 2, 3, 4]
+Expected Output: [3, 6, 9, 12]
+
+Filter Numbers Between 10 and 50 (Inclusive)
+Input: [5, 12, 45, 60, 25, 8]
+Expected Output: [12, 45, 25]
+
+Find the Minimum Number
+Input: [7, 2, 9, 4, 1]
+Expected Output: 1
+
+Reverse Sort Numbers
+Input: [5, 1, 9, 3, 7]
+Expected Output: [9, 7, 5, 3, 1]
+
+Sum of Even Numbers
+Input: [1, 2, 3, 4, 5, 6]
+Expected Output: 12
+
+Get Distinct Elements
+Input: [1, 2, 2, 3, 4, 4, 5]
+Expected Output: [1, 2, 3, 4, 5]
+
+Join Strings with Hyphen
+Input: ["Java", "Stream", "API"]
+Expected Output: "Java-Stream-API"
+
+Find Strings Ending with "e"
+Input: ["apple", "orange", "grape", "banana"]
+Expected Output: ["apple", "orange", "grape"]
+
+Square and Sort Numbers
+Input: [3, 1, 4, 2]
+Expected Output: [1, 4, 9, 16]
+
+Find Second Smallest Number
+Input: [5, 2, 8, 1, 3]
+Expected Output: 2
