@@ -46,17 +46,33 @@ public class StreamAPI15Aug {
 		List<Integer> sorted = numbers.stream().sorted().collect(Collectors.toList());
 		int n = sorted.size();
 		Object median = (n % 2 == 0) ? (sorted.get(n / 2 - 1) + sorted.get(n / 2)) / 2.0 : sorted.get(n / 2);
-
 		System.out.println(median);
+
+		List<String> wors = Arrays.asList("Java", "java", "Python", "PYTHON", "C++");
+		List<String> distinct = wors.stream()
+				.collect(Collectors.collectingAndThen(
+						Collectors.toMap(String::toLowerCase, s -> s, (a, b) -> a, LinkedHashMap::new),
+						m -> new ArrayList<>(m.values())));
+		System.out.println(distinct);
+
+		String input = "programming";
+		String result = input.chars().distinct().mapToObj(c -> String.valueOf((char) c)).collect(Collectors.joining());
+		System.out.println(result);
+
+		List<String> alpha = Arrays.asList("java", "python", "c");
+		List<String> alphas = alpha.stream().map(String::toUpperCase).sorted().collect(Collectors.toList());
+		System.out.println(alphas);
 		
-		 List<String> wors = Arrays.asList("Java", "java", "Python", "PYTHON", "C++");
-
-	        List<String> distinct = wors.stream()
-	            .collect(Collectors.collectingAndThen(
-	                Collectors.toMap(String::toLowerCase, s -> s, (a, b) -> a, LinkedHashMap::new),
-	                m -> new ArrayList<>(m.values())
-	            ));
-
-	        System.out.println(distinct);
+		List<Integer> nonZero = Arrays.asList(1, 0, 3, 4);
+		int noZeroRes = nonZero.stream().filter(p->p!=0).reduce((a,b)->a*b).orElse(-1);
+		System.out.println(noZeroRes);
+		
+		List<Integer> div = Arrays.asList(3, 6, 7, 8, 9, 12);
+		long results = div.stream().filter(q->q%3==0).count();
+		System.out.println(results);
+		
+		List<String> alphabet = Arrays.asList("Java", "Spring", "AI", "API", "Cloud");
+		List<String> alphabets =alphabet.stream().filter(st->st.length()>=3 && st.length()<5).collect(Collectors.toList());
+		System.out.println(alphabets);
 	}
 }
