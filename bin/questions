@@ -447,3 +447,24 @@ Input:
   {name: "Charlie", salary: 6000}
 ]
 Output: [{name: "Bob", salary: 7000}]
+
+9. Partition Employees by Salary > 6000
+Problem: Partition employees into two groups:
+One with salary greater than 6000
+One with salary less than or equal to 6000
+Input:
+[
+  {name: "Alice", salary: 5000},
+  {name: "Bob", salary: 7000},
+  {name: "Charlie", salary: 6000}
+]
+Output:
+{true=[{name: "Bob", salary: 7000}], 
+ false=[{name: "Alice", salary: 5000}, {name: "Charlie", salary: 6000}]}
+ 
+10. Find Duplicate Elements in a List
+Problem: From a list of integers, find all duplicate elements.
+Input:
+[1, 2, 3, 4, 2, 5, 1, 6, 3]
+Output:
+[1, 2, 3]

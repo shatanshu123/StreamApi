@@ -2,6 +2,7 @@ package streamApiLearning;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -69,5 +70,15 @@ public class StreamAPI17Aug {
 		List<Employee> threefull = employees.stream().sorted(Comparator.comparingInt(Employee::getSalary).reversed())
 				.limit(3).collect(Collectors.toList());
 		System.out.println(threefull);
+
+		Map<Boolean, List<Employee>> partitioned = employees.stream()
+				.collect(Collectors.partitioningBy(n -> n.getSalary() > 6000));
+		System.out.println(partitioned);
+
+		List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 2, 5, 1, 6, 3);
+		Set<Integer> hashNumbers = new HashSet<>();
+		List<Integer> duplicates = numbers.stream().filter(q -> !hashNumbers.add(q)).distinct()
+				.collect(Collectors.toList());
+		System.out.println(duplicates);
 	}
 }
