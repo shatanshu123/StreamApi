@@ -100,7 +100,7 @@ public class StreamAPI16Aug {
 				.collect(Collectors.toList());
 
 		List<List<Integer>> listOfLists = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4), Arrays.asList(5));
-        System.out.println(listOfLists);
+       
 		List<Integer>lists = listOfLists.stream().flatMap(List::stream).collect(Collectors.toList());
         System.out.println(lists);
 	}
