@@ -468,3 +468,72 @@ Input:
 [1, 2, 3, 4, 2, 5, 1, 6, 3]
 Output:
 [1, 2, 3]
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Filter Even Numbers
+Input: [1, 2, 3, 4, 5, 6, 7, 8]
+Output: [2, 4, 6, 8]
+
+2. Find First Non-Empty String
+Input: ["", " ", "Java", "Stream", "API"]
+Output: "Java"
+
+3. Sort Employees by Name
+Input:
+Employees = [
+  {id: 1, name: "Ravi", salary: 50000}, 
+  {id: 2, name: "Amit", salary: 60000}, 
+  {id: 3, name: "Suresh", salary: 55000}
+]
+Output: [Amit, Ravi, Suresh]
+
+4. Find Maximum Salary
+Input: Same employee list as above.
+Output: Amit (60000)
+
+5. Group by Department
+Input:
+Employees = [
+  {name: "Ravi", dept: "IT"}, 
+  {name: "Amit", dept: "HR"}, 
+  {name: "Suresh", dept: "IT"}, 
+  {name: "Neha", dept: "Finance"}, 
+  {name: "Rohan", dept: "HR"}
+]
+Output:
+IT -> 2
+HR -> 2
+Finance -> 1
+
+6. Partition Numbers (Prime/Non-Prime)
+Input: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+Output:
+Prime -> [2, 3, 5, 7]
+Non-Prime -> [4, 6, 8, 9, 10]
+
+7. Find Duplicate Elements
+Input: [1, 2, 3, 2, 4, 5, 1, 6, 4, 7]
+Output: [1, 2, 4]
+
+8. Top 3 Salaries
+Input:
+Employees = [
+  {name: "Ravi", salary: 50000}, 
+  {name: "Amit", salary: 80000}, 
+  {name: "Suresh", salary: 75000}, 
+  {name: "Neha", salary: 90000}, 
+  {name: "Rohan", salary: 60000}
+]
+Output:
+Neha (90000)
+Amit (80000)
+Suresh (75000)
+
+9. Longest String
+Input: ["Java", "SpringBoot", "Microservices", "API"]
+Output: "Microservices"
+
+10. Join Strings with Comma
+Input: ["Java", "Spring", "Hibernate", "Docker"]
+Output: "Java, Spring, Hibernate, Docker"
