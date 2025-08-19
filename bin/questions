@@ -537,3 +537,66 @@ Output: "Microservices"
 10. Join Strings with Comma
 Input: ["Java", "Spring", "Hibernate", "Docker"]
 Output: "Java, Spring, Hibernate, Docker"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Count Names Longer than 4 Characters
+Input: ["Ram", "Shyam", "Sita", "Gopal", "Radha"]
+Output: 3 (Shyam, Gopal, Radha)
+
+2. Sort Strings by Length
+Input: ["apple", "bat", "banana", "kiwi"]
+Output: [bat, kiwi, apple, banana]
+
+3. Group Words by First Letter
+Input: ["apple", "banana", "apricot", "blueberry", "cherry"]
+Output:
+a -> [apple, apricot]  
+b -> [banana, blueberry]  
+c -> [cherry]  
+
+4. Find Maximum Number
+Input: [10, 35, 27, 64, 18]
+Output: 64
+
+5. Concatenate All Strings
+Input: ["Java", "Stream", "API"]
+Output: "JavaStreamAPI"
+
+6. Count Employees in Each Department
+Input:
+[
+  {name: "Ravi", dept: "IT"}, 
+  {name: "Amit", dept: "HR"}, 
+  {name: "Neha", dept: "Finance"}, 
+  {name: "Suresh", dept: "IT"}, 
+  {name: "Rohan", dept: "HR"}
+]
+Output:
+IT -> 2
+HR -> 2
+Finance -> 1
+
+7. Check if All Numbers are Even
+Input: [2, 4, 6, 8]
+Output: true
+Input: [2, 3, 6, 8]
+Output: false
+
+8. Find Second Highest Salary
+Input:
+[
+  {name: "Ravi", salary: 50000}, 
+  {name: "Amit", salary: 80000}, 
+  {name: "Neha", salary: 90000}, 
+  {name: "Rohan", salary: 60000}
+]
+Output: Amit (80000)
+
+9. Find All Numbers Starting with "1"
+Input: [10, 15, 20, 25, 105, 210]
+Output: [10, 15, 105]
+
+10. Remove Duplicates from List
+Input: [5, 3, 5, 7, 9, 3, 1]
+Output: [5, 3, 7, 9, 1]
