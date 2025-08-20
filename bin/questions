@@ -600,3 +600,55 @@ Output: [10, 15, 105]
 10. Remove Duplicates from List
 Input: [5, 3, 5, 7, 9, 3, 1]
 Output: [5, 3, 7, 9, 1]
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Word Frequency Count
+Input: "hello world hello java world"
+Output: {hello=2, world=2, java=1}
+
+2. Group Words by First Letter
+Input: ["apple", "banana", "apricot", "blueberry"]
+Output: {a=[apple, apricot], b=[banana, blueberry]}
+
+3. Find Duplicate Elements in a List
+Input: [1, 2, 3, 2, 4, 5, 1, 6]
+Output: [1, 2]
+
+4. Count Character Frequency in a String
+Input: "banana"
+Output: {b=1, a=3, n=2}
+
+5. Find First Non-Repeated Character
+Input: "swiss"
+Output: 'w'
+
+6. Find All Palindromic Strings in a List
+Input: ["madam", "apple", "racecar", "java"]
+Output: ["madam", "racecar"]
+
+7. Group Words by Their Length
+Input: ["apple", "bat", "car", "elephant", "dog"]
+Output:
+3 -> [bat, car, dog]  
+5 -> [apple]  
+8 -> [elephant]
+
+8. Merge Two Lists and Remove Duplicates
+Input: [1,2,3,4] and [3,4,5,6]
+Output: [1,2,3,4,5,6]
+
+9. Find Common Elements in Two Lists
+Input: (1, 2, 3, 4, 5) and (3, 4, 5, 6, 7)
+Output:
+[3, 4, 5]
+
+10. Square and Remove Duplicates
+Input: (2, 3, 4, 2, 3, 5);
+Output: [4, 9, 16, 25]
+
+
+
+
+
+
