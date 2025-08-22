@@ -700,5 +700,10 @@ Output: true
 Input: "I love Java and I love coding"
 Output: "Java"
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Flatten a list of lists using flatMap.
+Find common elements between two lists using Streams. 
+Partition a list of numbers into even and odd using partitioningBy. 
+Count the frequency of words in a sentence.
 
