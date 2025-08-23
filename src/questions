@@ -702,8 +702,43 @@ Output: "Java"
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Flatten a list of lists using flatMap.
-Find common elements between two lists using Streams. 
-Partition a list of numbers into even and odd using partitioningBy. 
-Count the frequency of words in a sentence.
+1. Flatten a list of lists using flatMap.
 
+2. Find common elements between two lists using Streams. 
+
+3. Partition a list of numbers into even and odd using partitioningBy. 
+
+4. Count the frequency of words in a sentence.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Find the Longest Word in a Sentence
+Input: "Java streams make coding elegant"
+Output: streams
+
+2. Find All Numbers That Appear More Than Once
+Input: [1,2,2,3,4,5,1,6,7,5]
+Output: [1,2,5]
+
+3. Find the Employee with the Longest Name
+Input: [ "Ravi", "Jonathan", "Amit", "Christopher" ]
+Output: "Christopher"
+
+4. Check if All Numbers are Even
+Input: [2, 4, 6, 8] → Output: true
+Input: [2, 3, 6] → Output: false
+
+5. Find the Second Smallest Number
+Input: [7, 2, 10, 4, 6]
+Output: 4
+
+6. Group Strings by Their First Letter
+Input: [ "apple", "banana", "avocado", "blueberry", "cherry" ]
+Output:
+a -> [apple, avocado]
+b -> [banana, blueberry]
+c -> [cherry]
+
+7. Concatenate All Strings with a Delimiter
+Input: ["Java", "Stream", "API"]
+Output: "Java-Stream-API"
