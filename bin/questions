@@ -742,3 +742,35 @@ c -> [cherry]
 7. Concatenate All Strings with a Delimiter
 Input: ["Java", "Stream", "API"]
 Output: "Java-Stream-API"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Flatten a list of lists
+Problem:
+Input: [[1,2], [3,4], [5,6]]
+Output: [1,2,3,4,5,6]
+
+2. Partition numbers into Prime and Non-Prime
+Problem:
+Input: [2,3,4,5,6,7,8]
+Output: {Prime=[2,3,5,7], Non-Prime=[4,6,8]}
+
+3. Find the Longest Word in a Sentence
+Problem:
+Input: "Java streams make coding elegant"
+Output: streams
+
+4. Find Duplicate Elements in a List
+Problem:
+Input: [1,2,3,2,4,5,1,6]
+Output: [1,2]
+
+5. Find Anagrams in a List
+Problem:
+Input: ["listen", "silent", "enlist", "hello", "world"]
+Output: [listen, silent, enlist]
+
+6. Word Frequency Counter in a Paragraph
+Problem:
+Input: "hello world hello java world"
+Output: {hello=2, world=2, java=1}
