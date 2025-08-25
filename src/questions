@@ -774,3 +774,37 @@ Output: [listen, silent, enlist]
 Problem:
 Input: "hello world hello java world"
 Output: {hello=2, world=2, java=1}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Find Top N Frequent Words
+Problem:
+Input: "apple banana apple orange banana apple"
+Output (Top 2):
+apple=3, banana=2
+
+2. Find Second Highest Number in a List
+Problem:
+Input: [5, 3, 9, 7, 9, 2]
+Output: 7
+
+3. Flatten Nested Lists and Remove Duplicates
+
+Problem:
+Input: [[1,2,3], [2,3,4], [4,5]]
+Output: [1,2,3,4,5]
+
+4. Group Numbers by Range (0–10, 11–20, etc.)
+Problem:
+Input: [5, 12, 18, 7, 25]
+Output:
+0–10 → [5,7]
+11–20 → [12,18]
+21–30 → [25]
+
+5. Partition Words by Length Even/Odd
+Problem:
+Input: ["java", "api", "code", "spring"]
+Output:
+Even → [java, code, spring]  
+Odd → [api]
