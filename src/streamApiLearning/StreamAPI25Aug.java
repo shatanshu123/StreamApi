@@ -41,6 +41,8 @@ public class StreamAPI25Aug {
 		Map<Boolean, List<String>> evevOrOdd = str.stream().collect(Collectors.partitioningBy(st->st.length()%2==0));
 		System.out.println("even -> "+ evevOrOdd.get(true));
 		System.out.println("odd -> "+ evevOrOdd.get(false));
+		
+		
 
 	}
 

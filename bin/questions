@@ -808,3 +808,22 @@ Input: ["java", "api", "code", "spring"]
 Output:
 Even → [java, code, spring]  
 Odd → [api]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Difference between map() and flatMap()
+
+2. How does Collectors.toMap() behave with duplicates?
+
+3. Infinite Streams
+
+4. Collector Characteristics
+Set<String> set = Stream.of("b", "a", "c")
+    .collect(Collectors.toSet()); // may not preserve order
+
+Set<String> ordered = Stream.of("b", "a", "c")
+    .collect(Collectors.toCollection(LinkedHashSet::new)); // preserves order
+👉 Follow-up: What are Collector.Characteristics?
+UNORDERED, CONCURRENT, IDENTITY_FINISH.
+
+
