@@ -80,5 +80,15 @@ public class StreamAPI17Aug {
 		List<Integer> duplicates = numbers.stream().filter(q -> !hashNumbers.add(q)).distinct()
 				.collect(Collectors.toList());
 		System.out.println(duplicates);
+		
+		List<String>fruits = Arrays.asList("Apple", "Banana", "Avocado", "Blueberry");
+		Map<Boolean, List<String>>answer=fruits.stream().collect(Collectors.partitioningBy(n->n.charAt(0)=='A'));
+		System.out.println("A -> "+ answer.get(true));
+		System.out.println("B -> "+ answer.get(false));
+		Map<String, Long>answer1=fruits.stream().collect(Collectors.groupingBy(w->w,Collectors.counting()));
+		System.out.println(answer1);
+		List<String>fruit  = fruits.stream().sorted(Comparator.comparingInt(String::length)).collect(Collectors.toList());
+		System.out.println(fruit);
+		
 	}
 }

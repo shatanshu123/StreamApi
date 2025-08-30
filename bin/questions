@@ -826,4 +826,29 @@ Set<String> ordered = Stream.of("b", "a", "c")
 👉 Follow-up: What are Collector.Characteristics?
 UNORDERED, CONCURRENT, IDENTITY_FINISH.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Count the Number of Words in a Sentence
+Input: "I love Java streams" 
+Output: 4
+
+2. Group Words by Length
+Input: ["apple", "bat", "car", "elephant", "dog"]
+Output: {3=[bat, car, dog], 5=[apple], 8=[elephant]}
+
+3. Merge Two Lists and Remove Duplicates
+Input: [1,2,3] and [3,4,5] → Output: [1,2,3,4,5]
+
+4. Flatten a List of Lists
+Input: [[1,2], [3,4], [5,6]] → Output: [1,2,3,4,5,6]
+
+5. Find the Second Highest Number in a List
+Input: [5, 3, 9, 7, 9, 2] → Output: 7
+
+6. Sort a Map by Values (Descending)
+Input: {a=2, b=5, c=1} → Output: {b=5, a=2, c=1}
+
+7. Group Numbers into Prime and Non-Prime
+Input: [2,3,4,5,6,7,8]
+Output: {Prime=[2,3,5,7], Non-Prime=[4,6,8]}
 
